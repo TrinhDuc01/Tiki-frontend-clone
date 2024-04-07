@@ -223,8 +223,43 @@
         text-decoration: underline;
     }
 
+    /* ------------danhmuc */
+    #danh-muc{
+        flex-direction: row;
+        padding: 16px;
+        background-color: white;
+        margin-top: 12px;
+        justify-content: space-between;
+        display: grid;
+        gap: 8px;
+        overflow-x: scroll;
+    }
+
+    .danhmuc-item{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 72px;
+    }
+
+
+    .danhmuc-item a img{
+        width: 57px;
+        height: 57px;
+        margin: 0 auto;
+    }
+
+    .danhmuc-item span{
+        width: 72px;
+        text-align: center;
+        margin-top: 8px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
 
 }
+
 
 .bottombar-control {
     position: static;
