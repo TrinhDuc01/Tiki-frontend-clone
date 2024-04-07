@@ -240,6 +240,7 @@
         align-items: center;
         flex-direction: column;
         width: 72px;
+        cursor: pointer;
     }
 
 
