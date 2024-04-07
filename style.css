@@ -78,10 +78,12 @@ body {
 
     #form-search input {
         overflow: visible;
-        width: 86%;
+        /* width: 86%; */
+        flex:1;
         border: none;
         font-size: 14px;
         outline: none;
+        padding: 0 8px;
         /* giống cái bên dưới */
         border-right: 0.1px solid #dfdfdf;
     }
