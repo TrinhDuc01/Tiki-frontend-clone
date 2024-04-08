@@ -15,6 +15,12 @@ body {
     height: 24px;
 }
 
+#main-web-content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+} 
+
 @media (min-width:768px) {
     #header {
         width: 100%;
@@ -79,7 +85,7 @@ body {
     #form-search input {
         overflow: visible;
         /* width: 86%; */
-        flex:1;
+        flex: 1;
         border: none;
         font-size: 14px;
         outline: none;
@@ -289,17 +295,19 @@ body {
 
     /* -------carousel */
 
-    #slider{
+    
+
+    #slider {
         background-color: white;
         padding: 16px;
         border-radius: 8px;
     }
 
-    .banner img:first-child{
+    .banner img:first-child {
         float: left;
     }
 
-    .banner img:last-child{
+    .banner img:last-child {
         float: right;
     }
 
@@ -309,16 +317,15 @@ body {
     }
 
     /* ------------danhmuc */
-    #danh-muc{
+    #danh-muc {
         flex-direction: row;
         padding: 16px;
         background-color: white;
-        margin-top: 12px;
         border-radius: 8px;
         justify-content: space-between;
     }
 
-    .danhmuc-item{
+    .danhmuc-item {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -327,17 +334,37 @@ body {
     }
 
 
-    .danhmuc-item a img{
+    .danhmuc-item a img {
         width: 64px;
         height: 64px;
         margin: 0 auto;
     }
 
-    .danhmuc-item span{
+    .danhmuc-item span {
         width: 110px;
         text-align: center;
         margin-top: 8px;
         font-weight: 500;
+    }
+
+    /* ---khuyen mai */
+
+    #km-thuonghieu {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 16px;
+        gap: 12px;
+        background-color: white;
+        border-radius: 12px;
+    }
+
+    .km-item {
+        flex-basis: 15.5%;
+    }
+
+    .km-item a img {
+        width: 100%;
+        border-radius: 12px;
     }
 }
 
@@ -361,7 +388,8 @@ body {
     right: 40px;
 }
 
-#assistance,#news{
+#assistance,
+#news {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -377,17 +405,18 @@ body {
     height: 32px;
 }
 
-#assistance span,#news span {
+#assistance span,
+#news span {
     color: white;
     margin-top: 4px;
     font-size: 12px;
 }
 
-#news{
+#news {
     border-top: 0.3px solid white;
 }
 
-#news img{
+#news img {
     width: 32px;
     height: 32px;
 }
