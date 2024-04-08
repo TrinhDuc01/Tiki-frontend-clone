@@ -369,7 +369,7 @@ body {
     }
 
     /* -------product */
-    
+
 
 
 }
@@ -517,18 +517,67 @@ body {
     margin: 16px 0;
 }
 
-.card-foot{
+.card-foot {
     border-top: 1px solid rgb(235, 235, 240);
     padding: 6px 0 0 0;
 }
 
-.card-foot img{
+.card-foot img {
     width: 32px;
     height: 16px;
 }
 
-.card-foot span{
+.card-foot span {
     font-size: 10px;
     font-weight: 400;
     color: var(--Alias-Secondary---On-Theme, #808089);
+}
+
+#footer-intro {
+    background-color: white;
+    padding: 16px;
+}
+
+#footer-intro a {
+    text-decoration: none;
+}
+
+#footer-intro p:first-child {
+    font-weight: 500;
+    color: rgb(56, 56, 61);
+    font-size: 16px;
+    margin-bottom: 12px;
+
+}
+
+.small-text {
+    font-size: 12px;
+    color: rgb(128, 128, 137);
+    margin-bottom: 8px;
+}
+
+.footer-advertise {
+    margin-top: 4px;
+    background-color: white;
+    padding: 16px;
+}
+
+.footer-advertise h1 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: rgb(56, 56, 61);
+}
+
+.footer-advertise h2 {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(128, 128, 137);
+    margin-bottom: 4px;
+}
+
+.footer-advertise p {
+    font-size: 12px;
+    color: rgb(128, 128, 137);
+    margin-bottom: 12px;
 }
