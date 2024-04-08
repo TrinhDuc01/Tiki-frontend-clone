@@ -4,7 +4,7 @@
         position: -webkit-sticky;
         position: sticky;
         top: 0;
-        z-index: 2;
+        z-index: 101;
     }
 
     #header {
@@ -276,6 +276,20 @@
         display: block;
     }
 
+
+    .km-item-mobile div a img{
+        border-radius: 12px;
+    }
+
+    #goiy {
+        /* display: flex;
+        flex-direction: column;
+        background-color: white;
+        position: sticky;
+        position: -webkit-sticky; */
+        top: 45px;
+        z-index: 100;
+    }
 }
 
 
