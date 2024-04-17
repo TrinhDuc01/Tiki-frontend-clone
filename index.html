@@ -41,7 +41,11 @@
                                 <a href=""><img src="./img/home.png" alt="">Trang chủ</a>
                             </div>
                             <div id="user">
-                                <a href=""><img src="./img/face-icon.png" alt="">Tài khoản</a>
+                                <!-- Button trigger modal -->
+                                <a type="button" data-bs-toggle="modal" data-bs-target="#modal-account-register">
+                                    <img src="./img/face-icon.png" alt="">
+                                    Tài khoản
+                                </a>
                             </div>
                             <div class="vr" style="height: 24px; margin: 8px 16px;"></div>
                             <div id="cart">
@@ -947,9 +951,20 @@
                             <div class="footer-advertise">
                                 <h1>Tiki - Thật nhanh, thật chất lượng, thật rẻ</h1>
                                 <h2>Tiki có tất cả</h2>
-                                <p>Với hàng triệu sản phẩm từ các thương hiệu, cửa hàng uy tín, hàng nghìn loại mặt hàng từ Điện thoại smartphone tới Rau củ quả tươi, kèm theo dịch vụ giao hàng siêu tốc TikiNOW, Tiki mang đến cho bạn một trải nghiệm mua sắm online bắt đầu bằng chữ tín. Thêm vào đó, ở Tiki bạn có thể dễ dàng sử dụng vô vàn các tiện ích khác như mua thẻ cào, thanh toán hoá đơn điện nước, các dịch vụ bảo hiểm.</p>
+                                <p>Với hàng triệu sản phẩm từ các thương hiệu, cửa hàng uy tín, hàng nghìn loại mặt hàng
+                                    từ Điện thoại smartphone tới Rau củ quả tươi, kèm theo dịch vụ giao hàng siêu tốc
+                                    TikiNOW, Tiki mang đến cho bạn một trải nghiệm mua sắm online bắt đầu bằng chữ tín.
+                                    Thêm vào đó, ở Tiki bạn có thể dễ dàng sử dụng vô vàn các tiện ích khác như mua thẻ
+                                    cào, thanh toán hoá đơn điện nước, các dịch vụ bảo hiểm.</p>
                                 <h2>Khuyến mãi, ưu đãi tràn ngập</h2>
-                                <p>Bạn muốn săn giá sốc, Tiki có giá sốc mỗi ngày cho bạn! Bạn là tín đồ của các thương hiệu, các cửa hàng Official chính hãng đang chờ đón bạn. Không cần săn mã freeship, vì Tiki đã có hàng triệu sản phẩm trong chương trình Freeship+, không giới hạn lượt đặt, tiết kiệm thời gian vàng bạc của bạn. Mua thêm gói TikiNOW tiết kiệm để nhận 100% free ship 2h & trong ngày, hoặc mua gói TikiNOW cao cấp để nhận được 100% freeship, áp dụng cho 100% sản phẩm, 100% tỉnh thành Việt Nam. Bạn muốn tiết kiệm hơn nữa? Đã có TikiCARD, thẻ tín dụng Tiki hoàn tiền 15% trên mọi giao dịch (tối đa hoàn 600k/tháng)</p>
+                                <p>Bạn muốn săn giá sốc, Tiki có giá sốc mỗi ngày cho bạn! Bạn là tín đồ của các thương
+                                    hiệu, các cửa hàng Official chính hãng đang chờ đón bạn. Không cần săn mã freeship,
+                                    vì Tiki đã có hàng triệu sản phẩm trong chương trình Freeship+, không giới hạn lượt
+                                    đặt, tiết kiệm thời gian vàng bạc của bạn. Mua thêm gói TikiNOW tiết kiệm để nhận
+                                    100% free ship 2h & trong ngày, hoặc mua gói TikiNOW cao cấp để nhận được 100%
+                                    freeship, áp dụng cho 100% sản phẩm, 100% tỉnh thành Việt Nam. Bạn muốn tiết kiệm
+                                    hơn nữa? Đã có TikiCARD, thẻ tín dụng Tiki hoàn tiền 15% trên mọi giao dịch (tối đa
+                                    hoàn 600k/tháng)</p>
                             </div>
                         </footer>
 
@@ -1007,6 +1022,52 @@
             </div>
         </div>
     </main>
+
+
+
+    <!-- Modal -->
+    <div class="modal modal-lg fade " id="modal-account-register" tabindex="-1" aria-labelledby="modal-account-registerLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-md-down">
+            <button type="button" class="btn-close d-none d-md-block" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-content" id="register-content">
+                <div id="form-register">
+                    <div id="form-register-left">
+                        <img src="" alt="">
+                        <div id="heading" style="margin:  0 0 20px 0;">
+                            <h4>Xin chào,</h4>
+                            <p style="font-size: 15px; margin: 0;">Đăng nhập hoặc tạo Tài khoản</p>
+                        </div>
+                        <form action="">
+                            <input type="text" name="" placeholder="Số điện Thoại" id=""><br>
+                            <button type="submit">Tiếp tục</button>
+                        </form>
+                        <p>Đăng nhập bằng email</p>
+                        <div id="form-register-footer">
+                            <p>
+                                <span>Hoặc tiếp tục bằng</span>
+                            </p>
+
+                            <div>
+                                <img src="./img/facebook.png" alt="">
+                                <img src="./img/google.png" alt="">
+                            </div>
+                            <p>
+                                Bằng việc tiếp tục, bạn đã đọc và đồng ý với <a href="">điều khoản sử dụng</a> và <a href="">Chính sách bảo mật thông tin cá nhân</a> của Tiki
+                            </p>
+                        </div>
+                    </div>
+                    <div id="form-register-right" class="d-none d-md-flex">
+                        <img src="./img/register.png" alt="">
+                        <div id="content-register">
+                            <h5>Mua sắm tại Tiki</h5>
+                            <span>Siêu ưu đãi mỗi ngày</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
